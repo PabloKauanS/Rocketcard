@@ -59,10 +59,6 @@
   background-color: rgb(13, 128, 242);
   transform: translateY(-0.2rem);
 }
-.modal-btn:focus,
-.modal-close:focus {
-  -webkit-tap-highlight-color: transparent;
-}
 .modal-input:focus {
   outline: none;
   border: solid 0.163rem var(--img-profile);
@@ -70,5 +66,6 @@
 .modal-btn,
 .modal-close {
   -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
