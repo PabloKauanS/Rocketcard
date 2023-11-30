@@ -4,7 +4,7 @@
     font-size: 14px;
   }
   .avatar{
-    height: 20.188rem;
+    height: 323px;
   }
 }
 @media (max-width: 370px) {
@@ -12,7 +12,7 @@
     font-size: 13px;
   }
   .avatar{
-    height: 18.75rem;
+    height: 300px;
   }
 }
 @media (max-width: 340px) {
@@ -20,7 +20,7 @@
     font-size: 12px;
   }
   .avatar{
-    height: 17.5rem;
+    height: 280px;
   }
 }
 @media (max-width: 310px) {
@@ -28,7 +28,7 @@
     font-size: 11px;
   }
    .avatar{
-    height: 16.25rem;
+    height: 260px;
   }
 }
 @media (max-width: 290px) {
@@ -36,7 +36,7 @@
     font-size: 10px;
   }
    .avatar{
-    height: 15rem;
+    height: 240px;
   }
 }
 @media (max-width: 270px) {
@@ -44,7 +44,7 @@
     font-size: 9px;
   }
    .avatar{
-    height: 13.75;
+    height: 220px;
   }
 }
 /* Height mobile */
