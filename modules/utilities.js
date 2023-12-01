@@ -1,7 +1,5 @@
 export function eventLister(element, fc) {
-  ["touchstart", "click"].forEach((i) => {
-    element.addEventListener(i, fc);
-  });
+  ["touchstart", "click"].forEach((i) => element.addEventListener(i, fc));
 }
 export function closeModal() {
   document.querySelector("[data-modal-bg]").style.display = "none";
