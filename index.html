@@ -14,11 +14,11 @@
 
 <body class="bg">
   <div data-modal-bg class="modal-bg">
-    <div class="modal">
+    <div data-modal class="modal">
       <button data-btn-close class="modal-close">X</button>
       <h1 class="modal-title">Digite seu usuário:</h1>
       <input type="text" id="ml-input" class="modal-input"></input>
-      <button type="submit" class="modal-btn">Enviar &rarr;</button>
+      <button type="submit" data-btn-submit class="modal-btn">Enviar &rarr;</button>
     </div>
   </div>
   <main class="main">
@@ -26,22 +26,20 @@
       <div class="logo-detail">
         <img class="logo" src="icons/logo.svg" width="30" height="36">
       </div>
-      <!-- inserido via js -->
       <h1 class="name-user" data-user-name="">Usuário</h1>
     </header>
     <section class="section">
       <div class="avatar-bg">
-        <!--inserido via js-->
-        <img class="avatar" src="icons/user.png" height="370" width="372" alt="">
+        <img class="avatar" data-avatar src="icons/user.png" height="370" width="372" alt="">
       </div>
     </section>
     <section class="content-bg">
       <ul class="content">
-        <li><img src="icons/followers.svg" height="20" width="20"><span>0</span> Seguidores</li>
-        <li><img src="icons/following.svg" height="20" width="20"><span>0</span> Seguindo</li>
-        <li><img src="icons/repository.svg" height="20" width="20"><span>0</span> Repositórios</li>
-        <li><img src="icons/company.svg" height="20" width="20"><span></span>Indefinido</li>
-        <li><img src="icons/location.svg" height="20" width="20"><span></span>Indefinido</li>
+        <li><img src="icons/followers.svg" height="20" width="20"><span data-followers>0</span> Seguidores</li>
+        <li><img src="icons/following.svg" height="20" width="20"><span data-following>0</span> Seguindo</li>
+        <li><img src="icons/repository.svg" height="20" width="20"><span data-repository>0</span> Repositórios</li>
+        <li><img src="icons/company.svg" height="20" width="20"><span data-company>Indefinido</span></li>
+        <li><img src="icons/location.svg" height="20" width="20"><span data-location>Indefinido</span></li>
       </ul>
     </section>
     <footer class="footer">
