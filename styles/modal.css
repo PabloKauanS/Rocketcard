@@ -10,10 +10,10 @@
 }
 .modal {
   display: grid;
-  width: 96vw;
-  max-width: 70rem;
+  width: 90vw;
+  max-width: 50rem;
   border-radius: 0.8rem;
-  padding: 2rem;
+  padding: 1.5rem;
   background: linear-gradient(to right, rgb(36, 51, 66), rgb(54, 45, 89));
   box-shadow: 0.4rem 0.4rem 10.2rem 0.2rem rgba(64, 72, 191, 0.3);
 }
