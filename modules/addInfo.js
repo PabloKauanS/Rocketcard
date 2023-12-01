@@ -13,5 +13,6 @@ export default function addInfo({
   document.querySelector("[data-following]").innerText = following;
   document.querySelector("[data-repository]").innerText = public_repos;
   document.querySelector("[data-company]").innerText = "@" + login;
-  document.querySelector("[data-location]").innerText = location.split(' ')[0];
+  document.querySelector("[data-location]").innerText =
+    !!location === false ? "Indefinido" : location.split(" ")[0];
 }

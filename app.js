@@ -21,6 +21,6 @@ async function data(i) {
     target.style.display = "block";
     return;
   }
-  closeModal();
   addInfo(data_user);
+  document.querySelector("[data-avatar]").onload = closeModal;
 }
