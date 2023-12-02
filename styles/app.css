@@ -53,18 +53,19 @@
   width: 12.188rem;
   height: 12.125rem;
   border-radius: 3.125rem;
-  padding: 1.5rem 0 0 1.25rem;
+  padding: 1.2rem 0 .513rem 1.25rem;
   position: absolute;
   top: 22rem;
   left: 1.313rem;
+}
+.content{
+  display: grid;
+  height: 100%;
 }
 .content li {
   display: flex;
   gap: 0.401rem;
   align-items: center;
-}
-.content li:nth-child(n + 2) {
-  margin-top: 0.438rem;
 }
 .title-ft {
   font-weight: lighter;
